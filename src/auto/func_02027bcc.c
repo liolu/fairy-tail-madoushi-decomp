@@ -1,0 +1,10 @@
+#include "m2c.h"
+#include "engine.h"
+
+extern M2C_UNK data_0214e088;
+
+void func_02027bcc(s32 arg0) {
+    if (M2C_FIELD(&data_0214e088, s32 *, 0) != 0) {
+        M2C_FIELD(&data_0214e088, s32 *, 0x5C) = arg0;
+    }
+}

@@ -24,6 +24,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import time
 from multiprocessing import Pool
 from pathlib import Path
 
@@ -46,6 +47,28 @@ COMPILERS_TXT = ROOT / "config" / "jp" / "compilers.txt"
 MARKER = "/* compiler: "
 MAIN_TEXT = (0x02000000, 0x02057bb8)
 CONTEXT = ROOT / "build" / "auto" / "m2c_context.c"
+
+
+FUNCTION_BUDGET = 45  # seconds spent on one function over all compilers/variants
+
+
+def run_limited(cmd, cwd=None, shell=False, timeout=15):
+    """subprocess.run with a time limit; the compiler sometimes loops forever on odd sources.
+    On timeout the whole process tree is killed and a failed result is returned."""
+    p = subprocess.Popen(cmd, shell=shell, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    try:
+        out, err = p.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        import psutil
+        try:
+            for c in psutil.Process(p.pid).children(recursive=True):
+                c.kill()
+            p.kill()
+        except Exception:
+            pass
+        p.communicate()
+        return subprocess.CompletedProcess(cmd, 1, "", "timeout")
+    return subprocess.CompletedProcess(cmd, p.returncode, out, err)
 
 
 def header(name: str) -> str:
@@ -190,7 +213,10 @@ def asm_function_general(name: str, asm: str) -> str | None:
 def try_function(f: tuple[str, int, int]) -> tuple[str, int, int, str, str]:
     """Tries every compiler; a match with a non-default compiler is tagged with a marker comment."""
     first = None
+    t0 = time.time()
     for version, extra in COMPILERS:
+        if first is not None and time.time() - t0 > FUNCTION_BUDGET:
+            break
         result = try_function_with(f, MWCC_ROOT / version / "mwccarm.exe", extra)
         if result[3] == "match":
             if (version, extra) != COMPILERS[0]:
@@ -223,7 +249,7 @@ def try_function_with(f: tuple[str, int, int], mwcc: Path, extra: str = "") -> t
         best = (name, size, addr, "m2c", "")
         for cmd, head in ((m2c[:-1] + ["--context", str(CONTEXT), m2c[-1]], header(name)),
                           (m2c, '#include "m2c.h"\n\n')):
-            result = evaluate(t, subprocess.run(cmd, capture_output=True, text=True), head, asm, f, mwcc, extra)
+            result = evaluate(t, run_limited(cmd), head, asm, f, mwcc, extra)
             if RANK[result[3]] > RANK[best[3]]:
                 best = result
             if best[3] == "match":
@@ -287,7 +313,7 @@ def compile_and_compare(t: Path, source: str, name: str, size: int, addr: int, m
     (t / "f.o").unlink(missing_ok=True)
     (t / "f.c").write_text(source)
     cmd = f'"{mwcc}" -O4,p {pc.BASE_FLAGS} {extra} -i "{ROOT / "include"}" -c f.c -o f.o'
-    r = subprocess.run(cmd, shell=True, cwd=t, capture_output=True, text=True)
+    r = run_limited(cmd, cwd=t, shell=True)
     if r.returncode != 0 or not (t / "f.o").exists():
         return "compile"
     cand = pc.compiled_function(t / "f.o", name)
@@ -507,6 +533,8 @@ def main():
     print(verify.stdout.strip().splitlines()[-1] if verify.stdout else "")
     if verify.returncode != 0:
         print(verify.stdout[-3000:])
+        WORK.mkdir(parents=True, exist_ok=True)
+        (WORK / 'verify_fail.log').write_text(verify.stdout + chr(10) + verify.stderr, encoding='utf-8')
         print("Verification failed: rolling back.")
         DELINKS.write_bytes(backup)
         COMPILERS_TXT.write_bytes(compilers_backup)
