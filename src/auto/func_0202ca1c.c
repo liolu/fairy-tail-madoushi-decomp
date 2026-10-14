@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_0202ca1c(s32 arg0) {
     void *var_r2;
@@ -8,7 +8,7 @@ void func_0202ca1c(s32 arg0) {
     if (var_r2 != NULL) {
         do {
             M2C_FIELD(var_r2, s32 *, 8) = (s32) M2C_FIELD(arg0, s32 *, 0x1C);
-            var_r2 = M2C_FIELD(var_r2, void **, 0xC);
+            var_r2                      = M2C_FIELD(var_r2, void **, 0xC);
         } while (var_r2 != NULL);
     }
     M2C_FIELD(arg0, s32 *, 0x28) = (s32) M2C_FIELD(arg0, s32 *, 0x1C);

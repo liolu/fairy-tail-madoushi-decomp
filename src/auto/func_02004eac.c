@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_020035e0(M2C_UNK, M2C_UNK, M2C_UNK);
 
@@ -9,10 +9,10 @@ void func_02004eac(s32 arg0) {
     s32 var_r0;
     s32 var_r3;
 
-    var_r0 = func_020035e0(2, 0x20, arg0 * 8);
+    var_r0                                 = func_020035e0(2, 0x20, arg0 * 8);
     M2C_FIELD(&data_020a1ac0, s32 *, 0x14) = var_r0;
     M2C_FIELD(&data_020a1ac0, s32 *, 0x18) = arg0;
-    var_r3 = 0;
+    var_r3                                 = 0;
     if ((arg0 > 0) && (arg0 > 0)) {
         do {
             M2C_FIELD(var_r0, s32 *, 0) = -1;

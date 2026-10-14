@@ -14,7 +14,7 @@ void *func_0203505c(M2C_UNK arg0) {
     temp_r0 = func_0202c7bc(arg0, 0);
     if (temp_r0 != NULL) {
         func_0202c75c(arg0, temp_r0);
-        temp_r1 = M2C_FIELD(temp_r0, void **, 8);
+        temp_r1                          = M2C_FIELD(temp_r0, void **, 8);
         M2C_FIELD(temp_r1, s32 *, 0x124) = (s32) (M2C_FIELD(temp_r1, s32 *, 0x124) - 1);
     }
     func_02048ad4(temp_r4);

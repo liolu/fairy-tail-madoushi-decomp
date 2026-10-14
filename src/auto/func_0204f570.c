@@ -26,7 +26,7 @@ u32 func_0204f570(s32 arg0, M2C_UNK arg1, u32 arg2, u32 arg3) {
     } else {
         if (var_r6 < 0x8000U) {
             temp_r0_2 = 0x8000 - var_r6;
-            var_r4 = var_r5;
+            var_r4    = var_r5;
             if (var_r5 > temp_r0_2) {
                 var_r4 = temp_r0_2;
             }

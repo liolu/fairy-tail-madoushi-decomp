@@ -10,7 +10,7 @@ void func_0204c1f8(void) {
     s32 temp_r4;
 
     func_02048b3c(0x360000);
-    temp_r4 = data_020a120c;
+    temp_r4       = data_020a120c;
     data_020a120c = 0xE;
     if (func_0204c01c() != 1) {
         if (func_0204b8c8(2, 0) != 0) {

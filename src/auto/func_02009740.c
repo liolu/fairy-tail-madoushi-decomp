@@ -6,7 +6,7 @@ s32 func_02009740(void *arg0, s32 arg1) {
     s32 var_r1;
     void *temp_r3;
 
-    var_r1 = arg1;
+    var_r1    = arg1;
     temp_r3_2 = M2C_FIELD(arg0, s32 *, 0x18);
     if (temp_r3_2 == 0) {
         return 0;

@@ -8,7 +8,7 @@ s32 func_0201dc98(M2C_UNK arg0, M2C_UNK arg1, s32 arg2) {
     s32 temp_r4;
 
     temp_r4 = func_0201171c(0, arg0, arg1);
-    var_r0 = 0x10;
+    var_r0  = 0x10;
     if (arg2 != 0) {
         var_r0 = 0x11;
     }

@@ -16,7 +16,7 @@ s32 func_020134a0(s32 arg0) {
         }
     } else if (arg0 == -1) {
         var_r4 = 1;
-    } else if (*((M2C_UNK *)((s8 *)&data_02140630 + (arg0 * 4))) != 0) {
+    } else if (*((M2C_UNK *) ((s8 *) &data_02140630 + (arg0 * 4))) != 0) {
         var_r4 = 1;
     }
     return var_r4;

@@ -10,7 +10,9 @@ void func_02023324(void) {
     }
     M2C_FIELD(&data_0214d694, s32 *, 0x94) = 0;
     if (M2C_FIELD(&data_0214d694, s32 *, 0x90) == 0) {
-        func_02023550(M2C_FIELD(&data_0214d694, s32 *, 0x6C), M2C_FIELD(&data_0214d694, s32 *, 0x70), (M2C_FIELD(&data_0214d694, s32 *, 0x74) + (M2C_FIELD(&data_0214d694, s32 *, 0x78) << 5)) * 2, M2C_FIELD(&data_0214d694, u16 *, 0x84), M2C_FIELD(&data_0214d694, s32 *, 0x88));
+        func_02023550(M2C_FIELD(&data_0214d694, s32 *, 0x6C), M2C_FIELD(&data_0214d694, s32 *, 0x70),
+                      (M2C_FIELD(&data_0214d694, s32 *, 0x74) + (M2C_FIELD(&data_0214d694, s32 *, 0x78) << 5)) * 2,
+                      M2C_FIELD(&data_0214d694, u16 *, 0x84), M2C_FIELD(&data_0214d694, s32 *, 0x88));
         return;
     }
     func_02023690();

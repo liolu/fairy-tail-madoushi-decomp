@@ -1,6 +1,6 @@
 /* compiler: 1.2/sp2p3 -proc arm7tdmi */
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_02051e58(M2C_UNK, M2C_UNK, M2C_UNK);
 
