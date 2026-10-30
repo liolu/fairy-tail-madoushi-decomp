@@ -26,7 +26,7 @@ from:0x0215f428 kind:arm_call to:0x02045558 module:main
 from:0x0215f444 kind:load to:0x02160f68 module:overlay(8)
 from:0x0215f448 kind:load to:0x02160fa8 module:overlay(8)
 from:0x0215f44c kind:load to:0x02160f98 module:overlay(8)
-from:0x0215f450 kind:load to:0x02160fbe module:overlay(8)
+from:0x0215f450 kind:load to:0x02160fa8 add:0x16 module:overlay(8)
 from:0x0215f470 kind:load to:0x02160f68 module:overlay(8)
 from:0x0215f4d8 kind:arm_call to:0x0200c8c8 module:main
 from:0x0215f4ec kind:arm_call to:0x0200ca58 module:main

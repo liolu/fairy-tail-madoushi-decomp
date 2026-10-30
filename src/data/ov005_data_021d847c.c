@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_ov005_021d847c[8] = {0xB582E682, 0xC2820702, 0xB582A482, 0xF082F182, 0xB682CD82, 0xE982DF82, 0xA282BC82, 0x00010402};

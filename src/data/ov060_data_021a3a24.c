@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_ov060_021a3a24[7] = {0x0096000E, 0x00FE00CA, 0x01660132, 0x01CE019A, 0x060C040A, 0x0A10080E, 0x0E140C12};

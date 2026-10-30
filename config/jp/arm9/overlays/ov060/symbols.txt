@@ -87,45 +87,24 @@ func_ov060_021a26e4 kind:function(arm,size=0x24) addr:0x021a26e4
 func_ov060_021a2708 kind:function(arm,size=0xca0) addr:0x021a2708
 func_ov060_021a33a8 kind:function(arm,size=0x534) addr:0x021a33a8
 data_ov060_021a38e0 kind:data(any) addr:0x021a38e0
-data_ov060_021a38e6 kind:data(any) addr:0x021a38e6
 data_ov060_021a38f4 kind:data(any) addr:0x021a38f4
-data_ov060_021a38fe kind:data(any) addr:0x021a38fe
 data_ov060_021a390c kind:data(any) addr:0x021a390c
-data_ov060_021a391a kind:data(any) addr:0x021a391a
 data_ov060_021a3928 kind:data(any) addr:0x021a3928
-data_ov060_021a3936 kind:data(any) addr:0x021a3936
 data_ov060_021a3944 kind:data(any) addr:0x021a3944
-data_ov060_021a3945 kind:data(any) addr:0x021a3945
-data_ov060_021a3952 kind:data(any) addr:0x021a3952
 data_ov060_021a3960 kind:data(any) addr:0x021a3960
-data_ov060_021a396e kind:data(any) addr:0x021a396e
 data_ov060_021a397c kind:data(any) addr:0x021a397c
-data_ov060_021a397e kind:data(any) addr:0x021a397e
-data_ov060_021a398a kind:data(any) addr:0x021a398a
-data_ov060_021a398b kind:data(any) addr:0x021a398b
 data_ov060_021a3998 kind:data(any) addr:0x021a3998
-data_ov060_021a39a6 kind:data(any) addr:0x021a39a6
 data_ov060_021a39b4 kind:data(any) addr:0x021a39b4
-data_ov060_021a39c2 kind:data(any) addr:0x021a39c2
 data_ov060_021a39d0 kind:data(any) addr:0x021a39d0
-data_ov060_021a39de kind:data(any) addr:0x021a39de
 data_ov060_021a39ec kind:data(any) addr:0x021a39ec
-data_ov060_021a39ed kind:data(any) addr:0x021a39ed
-data_ov060_021a39fa kind:data(any) addr:0x021a39fa
 data_ov060_021a3a08 kind:data(any) addr:0x021a3a08
-data_ov060_021a3a0a kind:data(any) addr:0x021a3a0a
-data_ov060_021a3a16 kind:data(any) addr:0x021a3a16
 data_ov060_021a3a24 kind:data(any) addr:0x021a3a24
-data_ov060_021a3a32 kind:data(any) addr:0x021a3a32
-data_ov060_021a3a33 kind:data(any) addr:0x021a3a33
 data_ov060_021a3a40 kind:data(any) addr:0x021a3a40
 data_ov060_021a3a50 kind:data(any) addr:0x021a3a50
-data_ov060_021a3a5d kind:data(any) addr:0x021a3a5d
 data_ov060_021a3a5e kind:data(any) addr:0x021a3a5e
 data_ov060_021a3a5f kind:data(any) addr:0x021a3a5f
 data_ov060_021a3a6f kind:data(any) addr:0x021a3a6f
 data_ov060_021a3a70 kind:data(any) addr:0x021a3a70
-data_ov060_021a3a71 kind:data(any) addr:0x021a3a71
 data_ov060_021a3a84 kind:data(any) addr:0x021a3a84
 data_ov060_021a3a85 kind:data(any) addr:0x021a3a85
 data_ov060_021a3a86 kind:data(any) addr:0x021a3a86
@@ -152,11 +131,7 @@ data_ov060_021a3ec4 kind:data(any) addr:0x021a3ec4 ambiguous
 data_ov060_021a3f30 kind:data(any) addr:0x021a3f30 ambiguous
 data_ov060_021a3f64 kind:data(any) addr:0x021a3f64
 data_ov060_021a3f9c kind:data(any) addr:0x021a3f9c ambiguous
-data_ov060_021a429f kind:data(any) addr:0x021a429f ambiguous
-data_ov060_021a42bf kind:data(any) addr:0x021a42bf ambiguous
 data_ov060_021a4304 kind:data(any) addr:0x021a4304
-data_ov060_021a439f kind:data(any) addr:0x021a439f ambiguous
 data_ov060_021a4624 kind:data(any) addr:0x021a4624 ambiguous
 data_ov060_021a4668 kind:data(any) addr:0x021a4668 ambiguous
 data_ov060_021a4790 kind:data(any) addr:0x021a4790 ambiguous
-data_ov060_021a491f kind:data(any) addr:0x021a491f ambiguous

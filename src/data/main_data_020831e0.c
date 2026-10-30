@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_020831e0[12] = {0xAB82448D, 0xE082C882, 0xCD82CC82, 0x4F834081, 0x43838C83, 0xDC82B382,
+                         0xAB82A881, 0xA282E782, 0xE082C882, 0xCD82CC82, 0x4A894081, 0x00000000};

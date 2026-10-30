@@ -1,0 +1,6 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_ov059_021aed60[2] = {0x000F0159, 0x00000000};
+u32 data_ov059_021aed68[4] = {0x00000154, 0x00000014, 0x015E014A, 0x001E000A};
+u32 data_ov059_021aed78[6] = {0x0B2A0B2A, 0x0B2A0B2A, 0x0B2A0B2A, 0x0B2A0B2A, 0x0B2A0B2A, 0x0B2A0B2A};

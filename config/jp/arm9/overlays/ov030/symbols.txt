@@ -76,67 +76,37 @@ func_ov030_021a28ac kind:function(arm,size=0x388) addr:0x021a28ac
 data_ov030_021a2c46 kind:data(any) addr:0x021a2c46
 data_ov030_021a2c4d kind:data(any) addr:0x021a2c4d
 data_ov030_021a2c54 kind:data(any) addr:0x021a2c54
-data_ov030_021a2c5a kind:data(any) addr:0x021a2c5a
 data_ov030_021a2c60 kind:data(any) addr:0x021a2c60 ambiguous
 data_ov030_021a2c64 kind:data(any) addr:0x021a2c64 ambiguous
 data_ov030_021a2c68 kind:data(any) addr:0x021a2c68
-data_ov030_021a2c76 kind:data(any) addr:0x021a2c76
-data_ov030_021a2c77 kind:data(any) addr:0x021a2c77
 data_ov030_021a2c84 kind:data(any) addr:0x021a2c84
-data_ov030_021a2c92 kind:data(any) addr:0x021a2c92
 data_ov030_021a2ca0 kind:data(any) addr:0x021a2ca0
-data_ov030_021a2ca1 kind:data(any) addr:0x021a2ca1
 data_ov030_021a2ca8 kind:data(any) addr:0x021a2ca8 ambiguous
-data_ov030_021a2cae kind:data(any) addr:0x021a2cae
-data_ov030_021a2caf kind:data(any) addr:0x021a2caf
 data_ov030_021a2cbc kind:data(any) addr:0x021a2cbc
-data_ov030_021a2cca kind:data(any) addr:0x021a2cca
 data_ov030_021a2ccc kind:data(any) addr:0x021a2ccc
 data_ov030_021a2cd8 kind:data(any) addr:0x021a2cd8
-data_ov030_021a2cd9 kind:data(any) addr:0x021a2cd9
-data_ov030_021a2ce6 kind:data(any) addr:0x021a2ce6
-data_ov030_021a2ce7 kind:data(any) addr:0x021a2ce7
 data_ov030_021a2cf0 kind:data(any) addr:0x021a2cf0 ambiguous
 data_ov030_021a2cf4 kind:data(any) addr:0x021a2cf4
-data_ov030_021a2cf5 kind:data(any) addr:0x021a2cf5
-data_ov030_021a2d02 kind:data(any) addr:0x021a2d02
 data_ov030_021a2d10 kind:data(any) addr:0x021a2d10
-data_ov030_021a2d1e kind:data(any) addr:0x021a2d1e
 data_ov030_021a2d2c kind:data(any) addr:0x021a2d2c
 data_ov030_021a2d38 kind:data(any) addr:0x021a2d38 ambiguous
-data_ov030_021a2d3a kind:data(any) addr:0x021a2d3a
 data_ov030_021a2d48 kind:data(any) addr:0x021a2d48
-data_ov030_021a2d49 kind:data(any) addr:0x021a2d49
-data_ov030_021a2d56 kind:data(any) addr:0x021a2d56
 data_ov030_021a2d64 kind:data(any) addr:0x021a2d64
-data_ov030_021a2d72 kind:data(any) addr:0x021a2d72
 data_ov030_021a2d80 kind:data(any) addr:0x021a2d80
-data_ov030_021a2d8e kind:data(any) addr:0x021a2d8e
-data_ov030_021a2d8f kind:data(any) addr:0x021a2d8f
-data_ov030_021a2d9f kind:data(any) addr:0x021a2d9f ambiguous
-data_ov030_021a2daa kind:data(any) addr:0x021a2daa
-data_ov030_021a2dab kind:data(any) addr:0x021a2dab
 data_ov030_021a2db8 kind:data(any) addr:0x021a2db8
-data_ov030_021a2dc6 kind:data(any) addr:0x021a2dc6
 data_ov030_021a2dc7 kind:data(any) addr:0x021a2dc7
 data_ov030_021a2dc8 kind:data(any) addr:0x021a2dc8 ambiguous
 data_ov030_021a2dd4 kind:data(any) addr:0x021a2dd4
-data_ov030_021a2de2 kind:data(any) addr:0x021a2de2
 data_ov030_021a2df0 kind:data(any) addr:0x021a2df0
-data_ov030_021a2df1 kind:data(any) addr:0x021a2df1
-data_ov030_021a2dfe kind:data(any) addr:0x021a2dfe
 data_ov030_021a2e0c kind:data(any) addr:0x021a2e0c
 data_ov030_021a2e18 kind:data(any) addr:0x021a2e18
 data_ov030_021a2e34 kind:data(any) addr:0x021a2e34
 data_ov030_021a2e50 kind:data(any) addr:0x021a2e50
 data_ov030_021a2e6c kind:data(any) addr:0x021a2e6c
-data_ov030_021a2e7f kind:data(any) addr:0x021a2e7f ambiguous
 data_ov030_021a2e88 kind:data(any) addr:0x021a2e88
 data_ov030_021a2ea4 kind:data(any) addr:0x021a2ea4
-data_ov030_021a2ea6 kind:data(any) addr:0x021a2ea6
 data_ov030_021a2ec0 kind:data(any) addr:0x021a2ec0
 data_ov030_021a2ee0 kind:data(any) addr:0x021a2ee0
-data_ov030_021a2ee1 kind:data(any) addr:0x021a2ee1
 data_ov030_021a2f18 kind:data(any) addr:0x021a2f18 ambiguous
 data_ov030_021a2f44 kind:data(any) addr:0x021a2f44
 data_ov030_021a2f48 kind:data(any) addr:0x021a2f48 ambiguous
@@ -167,6 +137,5 @@ data_ov030_021a3230 kind:data(any) addr:0x021a3230 ambiguous
 data_ov030_021a3270 kind:data(any) addr:0x021a3270 ambiguous
 data_ov030_021a32dc kind:data(any) addr:0x021a32dc ambiguous
 data_ov030_021a350c kind:data(any) addr:0x021a350c
-data_ov030_021a38df kind:data(any) addr:0x021a38df ambiguous
 data_ov030_021a3b28 kind:data(any) addr:0x021a3b28 ambiguous
 data_ov030_021a3bcc kind:data(any) addr:0x021a3bcc ambiguous

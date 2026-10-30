@@ -1,0 +1,47 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_ov023_021b1fd4[];
+
+u32 data_ov023_021b26cc[5]   = {0x00000004, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA};
+u32 data_ov023_021b26e0[54]  = {0x00000005, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x00000006, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x00000007, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x00000008, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x00000009, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x0000000A, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x0000000B, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x0000000C, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x0000000D, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x0000000E, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF, 0x03FB03FA,
+                                0x0000000F, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF};
+u32 data_ov023_021b27b8[149] = {0x03FB03FA, 0x00000010, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000011, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000012, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000013, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000014, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000015, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000016, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000017, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000018, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000019, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000001A, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000001B, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000001C, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000001D, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000001E, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000001F, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000020, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000021, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000022, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000023, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000024, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000025, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000026, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000027, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000028, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x00000029, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000002A, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000002B, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000002B, (u32) &data_ov023_021b1fd4, 0x00000000, 0xFFFFFFFF,
+                                0x03FB03FA, 0x0000002C, (u32) &data_ov023_021b1fd4, 0x00000000};

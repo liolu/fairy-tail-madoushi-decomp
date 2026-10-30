@@ -1,0 +1,6 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_02085eec[17] = {0xAA95A98E, 0xA082A982, 0xC482A282, 0xCC91CC82, 0x5183CD97, 0x57835B81,
+                         0xD682AA82, 0xC682E982, 0xE082A881, 0xEA88A482, 0xCC82FB95, 0xCD97CC91,
+                         0x5B815183, 0xAA825783, 0x9C95F189, 0xE982B782, 0x00000000};

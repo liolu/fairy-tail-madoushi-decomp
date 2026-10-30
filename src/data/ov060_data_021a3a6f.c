@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u8 data_ov060_021a3a6f[1] = {0x3E};

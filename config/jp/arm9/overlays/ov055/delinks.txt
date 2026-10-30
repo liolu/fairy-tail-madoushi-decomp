@@ -2,3 +2,95 @@
     .ctor       start:0x021af1cc end:0x021af1cc kind:rodata align:4
     .data       start:0x021af1e0 end:0x021af360 kind:data align:32
     .bss        start:0x021af360 end:0x021af520 kind:bss align:32
+
+src/data/ov055_bss_021af360.c:
+    complete
+    .bss        start:0x021af360 end:0x021af388
+
+src/data/ov055_bss_021af388.c:
+    complete
+    .bss        start:0x021af388 end:0x021af3b4
+
+src/data/ov055_bss_021af3b4.c:
+    complete
+    .bss        start:0x021af3b4 end:0x021af3d0
+
+src/data/ov055_bss_021af3d0.c:
+    complete
+    .bss        start:0x021af3d0 end:0x021af3d8
+
+src/data/ov055_bss_021af3d8.c:
+    complete
+    .bss        start:0x021af3d8 end:0x021af3fc
+
+src/data/ov055_bss_021af3fc.c:
+    complete
+    .bss        start:0x021af3fc end:0x021af414
+
+src/data/ov055_bss_021af414.c:
+    complete
+    .bss        start:0x021af414 end:0x021af444
+
+src/data/ov055_bss_021af444.c:
+    complete
+    .bss        start:0x021af444 end:0x021af45c
+
+src/data/ov055_bss_021af45c.c:
+    complete
+    .bss        start:0x021af45c end:0x021af4a4
+
+src/data/ov055_bss_021af4a4.c:
+    complete
+    .bss        start:0x021af4a4 end:0x021af4b0
+
+src/data/ov055_bss_021af4b0.c:
+    complete
+    .bss        start:0x021af4b0 end:0x021af4ec
+
+src/data/ov055_bss_021af4ec.c:
+    complete
+    .bss        start:0x021af4ec end:0x021af4f8
+
+src/data/ov055_bss_021af4f8.c:
+    complete
+    .bss        start:0x021af4f8 end:0x021af51c
+
+src/data/ov055_bss_021af51c.c:
+    complete
+    .bss        start:0x021af51c end:0x021af520
+
+src/data/ov055_data_021af1e0.c:
+    complete
+    .data       start:0x021af1e0 end:0x021af1f4
+
+src/data/ov055_data_021af1f4.c:
+    complete
+    .data       start:0x021af1f4 end:0x021af220
+
+src/data/ov055_data_021af220.c:
+    complete
+    .data       start:0x021af220 end:0x021af240
+
+src/data/ov055_data_021af240.c:
+    complete
+    .data       start:0x021af240 end:0x021af254
+
+src/data/ov055_data_021af254.c:
+    complete
+    .data       start:0x021af254 end:0x021af294
+
+src/data/ov055_data_021af294.c:
+    complete
+    .data       start:0x021af294 end:0x021af2dc
+
+src/data/ov055_data_021af2dc.c:
+    complete
+    .data       start:0x021af2dc end:0x021af2f8
+
+src/data/ov055_data_021af2f8.c:
+    complete
+    .data       start:0x021af2f8 end:0x021af324
+
+src/data/ov055_data_021af324.c:
+    complete
+    .data       start:0x021af324 end:0x021af360

@@ -1,0 +1,7 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_ov030_021a317c[3] = {0x00100000, 0xFFA8FFEE, 0x00580046};
+u32 data_ov030_021a3188[4] = {0x00120000, 0xFFA8FFEE, 0x00580046, 0x00140000};
+u32 data_ov030_021a3198[9] = {0xFFA8FFEE, 0x00580046, 0x00160000, 0xFFA8FFEE, 0x00580046,
+                              0x00180000, 0xFFA8FFEE, 0x00580046, 0x001A0000};

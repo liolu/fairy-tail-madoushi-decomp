@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_ov045_021b2f98[12] = {0x580A580A, 0x580A580A, 0x580A580A, 0x580A580A, 0x580A580A, 0x580A580A,
+                               0x580A580A, 0x580A580A, 0x580A580A, 0x580A580A, 0x580A580A, 0x580A580A};

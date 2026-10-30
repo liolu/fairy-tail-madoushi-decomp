@@ -3,3 +3,99 @@
     .ctor       start:0x02165a00 end:0x02165a00 kind:rodata align:4
     .data       start:0x02165a20 end:0x02165ce0 kind:data align:32
     .bss        start:0x02165ce0 end:0x02165d40 kind:bss align:32
+
+src/data/ov007_bss_02165ce0.c:
+    complete
+    .bss        start:0x02165ce0 end:0x02165d40
+
+src/data/ov007_data_02165a20.c:
+    complete
+    .data       start:0x02165a20 end:0x02165a24
+
+src/data/ov007_data_02165a24.c:
+    complete
+    .data       start:0x02165a24 end:0x02165a28
+
+src/data/ov007_data_02165a28.c:
+    complete
+    .data       start:0x02165a28 end:0x02165a2c
+
+src/data/ov007_data_02165a2c.c:
+    complete
+    .data       start:0x02165a2c end:0x02165a34
+
+src/data/ov007_data_02165a34.c:
+    complete
+    .data       start:0x02165a34 end:0x02165a3c
+
+src/data/ov007_data_02165a3c.c:
+    complete
+    .data       start:0x02165a3c end:0x02165a44
+
+src/data/ov007_data_02165a44.c:
+    complete
+    .data       start:0x02165a44 end:0x02165a4c
+
+src/data/ov007_data_02165a4c.c:
+    complete
+    .data       start:0x02165a4c end:0x02165a68
+
+src/data/ov007_data_02165a68.c:
+    complete
+    .data       start:0x02165a68 end:0x02165a78
+
+src/data/ov007_data_02165a78.c:
+    complete
+    .data       start:0x02165a78 end:0x02165a88
+
+src/data/ov007_data_02165a88.c:
+    complete
+    .data       start:0x02165a88 end:0x02165a98
+
+src/data/ov007_data_02165a98.c:
+    complete
+    .data       start:0x02165a98 end:0x02165aa8
+
+src/data/ov007_data_02165aa8.c:
+    complete
+    .data       start:0x02165aa8 end:0x02165ab8
+
+src/data/ov007_data_02165ab8.c:
+    complete
+    .data       start:0x02165ab8 end:0x02165ac8
+
+src/data/ov007_data_02165ac8.c:
+    complete
+    .data       start:0x02165ac8 end:0x02165ad8
+
+src/data/ov007_data_02165ad8.c:
+    complete
+    .data       start:0x02165ad8 end:0x02165ae8
+
+src/data/ov007_data_02165ae8.c:
+    complete
+    .data       start:0x02165ae8 end:0x02165af8
+
+src/data/ov007_data_02165af8.c:
+    complete
+    .data       start:0x02165af8 end:0x02165b08
+
+src/data/ov007_data_02165b08.c:
+    complete
+    .data       start:0x02165b08 end:0x02165b18
+
+src/data/ov007_data_02165b18.c:
+    complete
+    .data       start:0x02165b18 end:0x02165b1c
+
+src/data/ov007_data_02165b1c.c:
+    complete
+    .data       start:0x02165b1c end:0x02165cd8
+
+src/data/ov007_data_02165cd8.c:
+    complete
+    .data       start:0x02165cd8 end:0x02165ce0
+
+src/data/ov007_rodata_021659d0.c:
+    complete
+    .rodata     start:0x021659d0 end:0x02165a00

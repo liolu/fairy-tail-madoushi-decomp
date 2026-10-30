@@ -59,4 +59,3 @@ data_ov008_02160f60 kind:bss addr:0x02160f60
 data_ov008_02160f68 kind:bss addr:0x02160f68
 data_ov008_02160f98 kind:bss addr:0x02160f98
 data_ov008_02160fa8 kind:bss addr:0x02160fa8
-data_ov008_02160fbe kind:bss addr:0x02160fbe

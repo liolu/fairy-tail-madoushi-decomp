@@ -75,34 +75,15 @@ func_ov044_021a2a2c kind:function(arm,size=0x360) addr:0x021a2a2c
 data_ov044_021a2da6 kind:data(any) addr:0x021a2da6
 data_ov044_021a2dad kind:data(any) addr:0x021a2dad
 data_ov044_021a2db4 kind:data(any) addr:0x021a2db4
-data_ov044_021a2dbb kind:data(any) addr:0x021a2dbb
-data_ov044_021a2dc2 kind:data(any) addr:0x021a2dc2
 data_ov044_021a2dc8 kind:data(any) addr:0x021a2dc8
-data_ov044_021a2dc9 kind:data(any) addr:0x021a2dc9
-data_ov044_021a2dd6 kind:data(any) addr:0x021a2dd6
 data_ov044_021a2de4 kind:data(any) addr:0x021a2de4
-data_ov044_021a2df2 kind:data(any) addr:0x021a2df2
-data_ov044_021a2df3 kind:data(any) addr:0x021a2df3
 data_ov044_021a2e00 kind:data(any) addr:0x021a2e00
-data_ov044_021a2e01 kind:data(any) addr:0x021a2e01
-data_ov044_021a2e0e kind:data(any) addr:0x021a2e0e
-data_ov044_021a2e0f kind:data(any) addr:0x021a2e0f
 data_ov044_021a2e1c kind:data(any) addr:0x021a2e1c
-data_ov044_021a2e2a kind:data(any) addr:0x021a2e2a
-data_ov044_021a2e2b kind:data(any) addr:0x021a2e2b
 data_ov044_021a2e38 kind:data(any) addr:0x021a2e38
-data_ov044_021a2e46 kind:data(any) addr:0x021a2e46
 data_ov044_021a2e54 kind:data(any) addr:0x021a2e54
-data_ov044_021a2e62 kind:data(any) addr:0x021a2e62
-data_ov044_021a2e63 kind:data(any) addr:0x021a2e63
 data_ov044_021a2e70 kind:data(any) addr:0x021a2e70
-data_ov044_021a2e7e kind:data(any) addr:0x021a2e7e
-data_ov044_021a2e7f kind:data(any) addr:0x021a2e7f ambiguous
 data_ov044_021a2e8c kind:data(any) addr:0x021a2e8c
-data_ov044_021a2e9a kind:data(any) addr:0x021a2e9a
-data_ov044_021a2e9b kind:data(any) addr:0x021a2e9b
 data_ov044_021a2ea8 kind:data(any) addr:0x021a2ea8
-data_ov044_021a2eb5 kind:data(any) addr:0x021a2eb5
 data_ov044_021a2eb6 kind:data(any) addr:0x021a2eb6
 data_ov044_021a2eb7 kind:data(any) addr:0x021a2eb7
 data_ov044_021a2eca kind:data(any) addr:0x021a2eca
@@ -110,7 +91,6 @@ data_ov044_021a2ecb kind:data(any) addr:0x021a2ecb
 data_ov044_021a2ecc kind:data(any) addr:0x021a2ecc
 data_ov044_021a2ee0 kind:data(any) addr:0x021a2ee0
 data_ov044_021a2efc kind:data(any) addr:0x021a2efc
-data_ov044_021a2f17 kind:data(any) addr:0x021a2f17
 data_ov044_021a2f18 kind:data(any) addr:0x021a2f18
 data_ov044_021a2f19 kind:data(any) addr:0x021a2f19
 data_ov044_021a2f1a kind:data(any) addr:0x021a2f1a
@@ -118,22 +98,18 @@ data_ov044_021a2f1b kind:data(any) addr:0x021a2f1b
 data_ov044_021a2f3f kind:data(any) addr:0x021a2f3f
 data_ov044_021a2f40 kind:data(any) addr:0x021a2f40
 data_ov044_021a2f48 kind:data(any) addr:0x021a2f48 ambiguous
-data_ov044_021a2f77 kind:data(any) addr:0x021a2f77
 data_ov044_021a2f78 kind:data(any) addr:0x021a2f78
 data_ov044_021a2fa8 kind:data(any) addr:0x021a2fa8
 data_ov044_021a2fac kind:data(any) addr:0x021a2fac
 data_ov044_021a2fe8 kind:data(any) addr:0x021a2fe8
-data_ov044_021a2fe9 kind:data(any) addr:0x021a2fe9
 data_ov044_021a300c kind:data(any) addr:0x021a300c ambiguous
 data_ov044_021a3014 kind:data(any) addr:0x021a3014 ambiguous
 data_ov044_021a3020 kind:data(any) addr:0x021a3020
-data_ov044_021a3021 kind:data(any) addr:0x021a3021
 data_ov044_021a3054 kind:data(any) addr:0x021a3054 ambiguous
 data_ov044_021a3058 kind:data(any) addr:0x021a3058 ambiguous
 data_ov044_021a3068 kind:data(any) addr:0x021a3068 ambiguous
 data_ov044_021a3080 kind:data(any) addr:0x021a3080 ambiguous
 data_ov044_021a3084 kind:data(any) addr:0x021a3084
-data_ov044_021a3086 kind:data(any) addr:0x021a3086
 data_ov044_021a30b0 kind:data(any) addr:0x021a30b0 ambiguous
 data_ov044_021a30c0 kind:data(any) addr:0x021a30c0 ambiguous
 data_ov044_021a30ec kind:data(any) addr:0x021a30ec ambiguous
@@ -154,7 +130,6 @@ data_ov044_021a3270 kind:data(any) addr:0x021a3270 ambiguous
 data_ov044_021a32dc kind:data(any) addr:0x021a32dc ambiguous
 data_ov044_021a336c kind:data(any) addr:0x021a336c
 data_ov044_021a36bc kind:data(any) addr:0x021a36bc
-data_ov044_021a38df kind:data(any) addr:0x021a38df ambiguous
 data_ov044_021a3b28 kind:data(any) addr:0x021a3b28 ambiguous
 data_ov044_021a3bcc kind:data(any) addr:0x021a3bcc ambiguous
 data_ov044_021a3d80 kind:data(any) addr:0x021a3d80 ambiguous

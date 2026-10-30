@@ -76,67 +76,37 @@ func_ov031_021b28cc kind:function(arm,size=0x388) addr:0x021b28cc
 data_ov031_021b2c66 kind:data(any) addr:0x021b2c66
 data_ov031_021b2c6d kind:data(any) addr:0x021b2c6d
 data_ov031_021b2c74 kind:data(any) addr:0x021b2c74
-data_ov031_021b2c7a kind:data(any) addr:0x021b2c7a
 data_ov031_021b2c80 kind:data(any) addr:0x021b2c80 ambiguous
 data_ov031_021b2c84 kind:data(any) addr:0x021b2c84 ambiguous
 data_ov031_021b2c88 kind:data(any) addr:0x021b2c88
-data_ov031_021b2c96 kind:data(any) addr:0x021b2c96
-data_ov031_021b2c97 kind:data(any) addr:0x021b2c97
 data_ov031_021b2ca4 kind:data(any) addr:0x021b2ca4
-data_ov031_021b2cb2 kind:data(any) addr:0x021b2cb2
 data_ov031_021b2cc0 kind:data(any) addr:0x021b2cc0
-data_ov031_021b2cc1 kind:data(any) addr:0x021b2cc1
 data_ov031_021b2cc8 kind:data(any) addr:0x021b2cc8 ambiguous
-data_ov031_021b2cce kind:data(any) addr:0x021b2cce
-data_ov031_021b2ccf kind:data(any) addr:0x021b2ccf
 data_ov031_021b2cdc kind:data(any) addr:0x021b2cdc
-data_ov031_021b2cea kind:data(any) addr:0x021b2cea
 data_ov031_021b2cec kind:data(any) addr:0x021b2cec
 data_ov031_021b2cf8 kind:data(any) addr:0x021b2cf8
-data_ov031_021b2cf9 kind:data(any) addr:0x021b2cf9
-data_ov031_021b2d06 kind:data(any) addr:0x021b2d06
-data_ov031_021b2d07 kind:data(any) addr:0x021b2d07
 data_ov031_021b2d10 kind:data(any) addr:0x021b2d10 ambiguous
 data_ov031_021b2d14 kind:data(any) addr:0x021b2d14
-data_ov031_021b2d15 kind:data(any) addr:0x021b2d15
-data_ov031_021b2d22 kind:data(any) addr:0x021b2d22
 data_ov031_021b2d30 kind:data(any) addr:0x021b2d30
-data_ov031_021b2d3e kind:data(any) addr:0x021b2d3e
 data_ov031_021b2d4c kind:data(any) addr:0x021b2d4c
 data_ov031_021b2d58 kind:data(any) addr:0x021b2d58 ambiguous
-data_ov031_021b2d5a kind:data(any) addr:0x021b2d5a
 data_ov031_021b2d68 kind:data(any) addr:0x021b2d68
-data_ov031_021b2d69 kind:data(any) addr:0x021b2d69
-data_ov031_021b2d76 kind:data(any) addr:0x021b2d76
 data_ov031_021b2d84 kind:data(any) addr:0x021b2d84
-data_ov031_021b2d92 kind:data(any) addr:0x021b2d92
 data_ov031_021b2da0 kind:data(any) addr:0x021b2da0
-data_ov031_021b2dae kind:data(any) addr:0x021b2dae
-data_ov031_021b2daf kind:data(any) addr:0x021b2daf
-data_ov031_021b2dbf kind:data(any) addr:0x021b2dbf ambiguous
-data_ov031_021b2dca kind:data(any) addr:0x021b2dca
-data_ov031_021b2dcb kind:data(any) addr:0x021b2dcb
 data_ov031_021b2dd8 kind:data(any) addr:0x021b2dd8
-data_ov031_021b2de6 kind:data(any) addr:0x021b2de6
 data_ov031_021b2de7 kind:data(any) addr:0x021b2de7
 data_ov031_021b2de8 kind:data(any) addr:0x021b2de8 ambiguous
 data_ov031_021b2df4 kind:data(any) addr:0x021b2df4
-data_ov031_021b2e02 kind:data(any) addr:0x021b2e02
 data_ov031_021b2e10 kind:data(any) addr:0x021b2e10
-data_ov031_021b2e11 kind:data(any) addr:0x021b2e11
-data_ov031_021b2e1e kind:data(any) addr:0x021b2e1e
 data_ov031_021b2e2c kind:data(any) addr:0x021b2e2c
 data_ov031_021b2e38 kind:data(any) addr:0x021b2e38
 data_ov031_021b2e54 kind:data(any) addr:0x021b2e54
 data_ov031_021b2e70 kind:data(any) addr:0x021b2e70
 data_ov031_021b2e8c kind:data(any) addr:0x021b2e8c
-data_ov031_021b2e9f kind:data(any) addr:0x021b2e9f ambiguous
 data_ov031_021b2ea8 kind:data(any) addr:0x021b2ea8
 data_ov031_021b2ec4 kind:data(any) addr:0x021b2ec4
-data_ov031_021b2ec6 kind:data(any) addr:0x021b2ec6
 data_ov031_021b2ee0 kind:data(any) addr:0x021b2ee0
 data_ov031_021b2f00 kind:data(any) addr:0x021b2f00
-data_ov031_021b2f01 kind:data(any) addr:0x021b2f01
 data_ov031_021b2f38 kind:data(any) addr:0x021b2f38 ambiguous
 data_ov031_021b2f64 kind:data(any) addr:0x021b2f64
 data_ov031_021b2f68 kind:data(any) addr:0x021b2f68 ambiguous
@@ -167,6 +137,5 @@ data_ov031_021b3250 kind:data(any) addr:0x021b3250 ambiguous
 data_ov031_021b3290 kind:data(any) addr:0x021b3290 ambiguous
 data_ov031_021b32fc kind:data(any) addr:0x021b32fc ambiguous
 data_ov031_021b352c kind:data(any) addr:0x021b352c
-data_ov031_021b38ff kind:data(any) addr:0x021b38ff ambiguous
 data_ov031_021b3b48 kind:data(any) addr:0x021b3b48 ambiguous
 data_ov031_021b3bec kind:data(any) addr:0x021b3bec ambiguous
