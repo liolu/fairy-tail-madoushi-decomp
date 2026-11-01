@@ -150,3 +150,7 @@ src/data/ov046_data_021a4790.c:
 src/data/ov046_data_021a4b58.c:
     complete
     .data       start:0x021a4b58 end:0x021a5760
+
+src/data/ov046_data_021a42c0.c:
+    complete
+    .data       start:0x021a42c0 end:0x021a42d4

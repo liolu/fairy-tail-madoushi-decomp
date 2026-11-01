@@ -118,3 +118,7 @@ src/data/ov018_data_021a4514.c:
 src/data/ov018_data_021a453f.c:
     complete
     .data       start:0x021a453f end:0x021a4540
+
+src/data/ov018_data_021a43a0.c:
+    complete
+    .data       start:0x021a43a0 end:0x021a43b4

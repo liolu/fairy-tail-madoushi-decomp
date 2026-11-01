@@ -162,3 +162,4 @@ data_ov022_021a2bf8 kind:data(any) addr:0x021a2bf8 ambiguous
 data_ov022_021a2c60 kind:data(any) addr:0x021a2c60 ambiguous
 data_ov022_021a2c64 kind:data(any) addr:0x021a2c64 ambiguous
 data_ov022_021a2ca8 kind:data(any) addr:0x021a2ca8 ambiguous
+data_ov022_021a1d20 kind:data(any) addr:0x021a1d20

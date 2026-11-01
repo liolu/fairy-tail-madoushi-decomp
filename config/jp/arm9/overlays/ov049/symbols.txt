@@ -180,3 +180,4 @@ data_ov049_021b2da0 kind:data(any) addr:0x021b2da0 ambiguous
 data_ov049_021b2de8 kind:data(any) addr:0x021b2de8 ambiguous
 data_ov049_021b2f38 kind:data(any) addr:0x021b2f38 ambiguous
 data_ov049_021b2f68 kind:data(any) addr:0x021b2f68 ambiguous
+data_ov049_021b2060 kind:data(any) addr:0x021b2060

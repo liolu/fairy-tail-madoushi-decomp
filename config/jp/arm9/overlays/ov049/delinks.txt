@@ -206,3 +206,7 @@ src/data/ov049_data_021b2da0.c:
 src/data/ov049_data_021b2f38.c:
     complete
     .data       start:0x021b2f38 end:0x021b2fc0
+
+src/data/ov049_data_021b2060.c:
+    complete
+    .data       start:0x021b2060 end:0x021b2074

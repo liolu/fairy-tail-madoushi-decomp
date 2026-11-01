@@ -139,3 +139,4 @@ data_ov030_021a32dc kind:data(any) addr:0x021a32dc ambiguous
 data_ov030_021a350c kind:data(any) addr:0x021a350c
 data_ov030_021a3b28 kind:data(any) addr:0x021a3b28 ambiguous
 data_ov030_021a3bcc kind:data(any) addr:0x021a3bcc ambiguous
+data_ov030_021a2c40 kind:data(any) addr:0x021a2c40

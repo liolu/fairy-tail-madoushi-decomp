@@ -154,3 +154,11 @@ src/data/ov045_data_021b2f3b.c:
 src/data/ov045_data_021b2f5f.c:
     complete
     .data       start:0x021b2f5f end:0x021b2f60
+
+src/data/ov045_data_021b2dc0.c:
+    complete
+    .data       start:0x021b2dc0 end:0x021b2dd4
+
+src/data/ov045_data_021b2f38.c:
+    complete
+    .data       start:0x021b2f38 end:0x021b2f39

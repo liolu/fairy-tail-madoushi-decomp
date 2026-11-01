@@ -13815,3 +13815,11 @@ src/data/main_data_0209978c.c:
 src/data/main_rodata_02057e14.c:
     complete
     .rodata     start:0x02057e14 end:0x02057e15
+
+src/data/main_data_0207c500.c:
+    complete
+    .data       start:0x0207c500 end:0x0207c52c
+
+src/data/main_data_0207c52c.c:
+    complete
+    .data       start:0x0207c52c end:0x0207c52e

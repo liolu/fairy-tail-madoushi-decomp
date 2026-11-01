@@ -174,3 +174,11 @@ src/data/ov020_data_021a2677.c:
 src/data/ov020_data_021a377f.c:
     complete
     .data       start:0x021a377f end:0x021a3780
+
+src/data/ov020_data_021a32dc.c:
+    complete
+    .data       start:0x021a32dc end:0x021a377c
+
+src/data/ov020_data_021a377c.c:
+    complete
+    .data       start:0x021a377c end:0x021a377f

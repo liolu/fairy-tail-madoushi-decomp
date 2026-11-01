@@ -294,3 +294,7 @@ src/data/ov012_data_021a1dd2.c:
 src/data/ov012_data_021a1dd3.c:
     complete
     .data       start:0x021a1dd3 end:0x021a1dd8
+
+src/data/ov012_data_021a1c60.c:
+    complete
+    .data       start:0x021a1c60 end:0x021a1c6c

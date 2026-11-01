@@ -136,3 +136,4 @@ data_ov045_021b3da0 kind:data(any) addr:0x021b3da0 ambiguous
 data_ov045_021b3e0c kind:data(any) addr:0x021b3e0c ambiguous
 data_ov045_021b3e78 kind:data(any) addr:0x021b3e78 ambiguous
 data_ov045_021b3ee4 kind:data(any) addr:0x021b3ee4 ambiguous
+data_ov045_021b2dc0 kind:data(any) addr:0x021b2dc0

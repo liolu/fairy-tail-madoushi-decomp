@@ -170,3 +170,11 @@ src/data/ov015_data_021b4c0a.c:
 src/data/ov015_data_021b4c0b.c:
     complete
     .data       start:0x021b4c0b end:0x021b4c24
+
+src/data/ov015_data_021b4940.c:
+    complete
+    .data       start:0x021b4940 end:0x021b4954
+
+src/data/ov015_data_021b4c08.c:
+    complete
+    .data       start:0x021b4c08 end:0x021b4c09

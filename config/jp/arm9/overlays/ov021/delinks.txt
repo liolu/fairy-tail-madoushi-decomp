@@ -174,3 +174,11 @@ src/data/ov021_data_021b2697.c:
 src/data/ov021_data_021b379f.c:
     complete
     .data       start:0x021b379f end:0x021b37a0
+
+src/data/ov021_data_021b32fc.c:
+    complete
+    .data       start:0x021b32fc end:0x021b379c
+
+src/data/ov021_data_021b379c.c:
+    complete
+    .data       start:0x021b379c end:0x021b379f
