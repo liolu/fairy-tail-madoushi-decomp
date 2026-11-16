@@ -163,3 +163,5 @@ src/auto/func_02017b30.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
 src/auto/func_0201a264.c 2.0/sp1p5 -O4,s
 src/auto/func_0202a7cc.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
 src/auto/func_020365b4.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
+src/auto/func_020043e8.c 2.0/sp1p5 -O0
+src/auto/func_020487a4.c 2.0/sp1p5 -flag opt_repositioncode

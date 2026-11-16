@@ -13851,3 +13851,11 @@ src/auto/func_0202a7cc.c:
 src/auto/func_020365b4.c:
     complete
     .text       start:0x020365b4 end:0x020365f0
+
+src/auto/func_020043e8.c:
+    complete
+    .text       start:0x020043e8 end:0x020043f4
+
+src/auto/func_020487a4.c:
+    complete
+    .text       start:0x020487a4 end:0x020487dc
